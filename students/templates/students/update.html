@@ -18,10 +18,15 @@
                 {{form | crispy}}
                 
                 <br>
-                <button type="submit" class="btn btn-outline-dark">
+                <button type="submit" class="btn btn-outline-success">
                     <i class="fas fa-edit"></i>
                     Update Student
                 </button>
+
+                <a href="{% url 'home' %}" class="btn btn-outline-danger">
+                    <i class="fas fa-ban"></i>
+                    Cancel
+                </a>
             </form>
         </div>
       </div>

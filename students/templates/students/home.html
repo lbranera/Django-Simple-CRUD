@@ -57,8 +57,12 @@
                                     Are you sure you want to delete {{student.name}}?
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="{% url 'delete' student.id %}" class="btn btn-outline-success">Delete</a>
-                                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cancel</button>
+                                    <a href="{% url 'delete' student.id %}" class="btn btn-outline-success">
+                                        <i class="fas fa-trash"></i> Delete
+                                    </a>
+                                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">
+                                        <i class="fas fa-ban"></i> Cancel
+                                    </button>
                                 </div>
                             </div>
                         </div>
