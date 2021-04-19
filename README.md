@@ -5,9 +5,12 @@
 2. Create a database called "students" 
 3. Go to simple_crud/settings.py
 4. Go to the "DATABASES" dictionary 
-5. Make sure to install psycogpg2 Python library ("pip install psycopg2")
-6. Modify the "NAME", "PASSWORD", and "PORT" according to the configurations of your own PostgreSQL
-7. Type and run "py manage.py migrate" to properly set-up the necessary tables for the database 
+5. Install the following Python dependencies
+* pip install psycopg2
+* pip install django-crispy-forms
+* pip install crispy-bootstrap5
+8. Modify the "NAME", "PASSWORD", and "PORT" according to the configurations of your own PostgreSQL (check pgAdmin)
+9. Type and run "py manage.py migrate" to properly set-up the necessary tables for the database 
 
 ## Running the Server 
 
